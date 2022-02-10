@@ -7,8 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Location {
-
+public class UpdateLocationCommand {
     private Long id;
     private String name;
     private double lat;
